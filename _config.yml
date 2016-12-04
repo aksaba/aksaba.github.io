@@ -12,7 +12,7 @@ baseurl: ""
 url: "http://aksaba.github.io" # replace by your site's url
 twitter_username: aksabapathy
 github_username:  aksaba # (your name)
-accent: "#f2f664" # accent color for blog column
+accent: "#ffb4c5" # accent color for blog column
 
 author: "Karthik Sabapathy"
 address: "Chennai, India"
