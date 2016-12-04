@@ -6,4 +6,6 @@ categories: jekyll update
 ---
 Some photos from my conference trip to Incheon, South Korea:
 
-![airport1](images/IMG_1160)
+![airport1](https://c7.staticflickr.com/6/5566/31036768910_bc209d91cf.jpg  "Incheon International Airport")
+
+![airport2](https://c8.staticflickr.com/6/5600/31405715055_a5244593d5.jpg  "Incheon International Airport")
