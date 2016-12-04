@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2016-12-04T15:30:50+05:30</updated><id>http://localhost:4000//</id><title type="html">Ak Saba’s Blog</title><subtitle>Welcome to my blog. 
+</subtitle><entry><title type="html">Trip to South Korea</title><link href="http://localhost:4000/jekyll/update/2016/12/04/skorea_photos.html" rel="alternate" type="text/html" title="Trip to South Korea" /><published>2016-12-04T09:19:43+05:30</published><updated>2016-12-04T09:19:43+05:30</updated><id>http://localhost:4000/jekyll/update/2016/12/04/skorea_photos</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2016/12/04/skorea_photos.html">&lt;p&gt;Some photos from my conference trip to Incheon, South Korea:&lt;/p&gt;
+
+&lt;h4 id=&quot;incheon-international-airport&quot;&gt;Incheon International Airport&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://c7.staticflickr.com/6/5566/31036768910_bc209d91cf.jpg&quot; alt=&quot;airport1&quot; title=&quot;Incheon International Airport&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://c8.staticflickr.com/6/5600/31405715055_a5244593d5.jpg&quot; alt=&quot;airport2&quot; title=&quot;Incheon International Airport&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;conference-venue---songdo-convensia-during-day-and-night&quot;&gt;Conference Venue - Songdo Convensia during Day and Night&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://c1.staticflickr.com/6/5593/31036756880_30e8176278.jpg&quot; alt=&quot;convday&quot; title=&quot;Convensia During Day&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://c3.staticflickr.com/6/5532/31038068970_8f49085a91.jpg&quot; alt=&quot;convnight&quot; title=&quot;Convensia During Night&quot; /&gt;&lt;/p&gt;</content><summary type="html">Some photos from my conference trip to Incheon, South Korea:</summary></entry><entry><title type="html">Blogging using Jekyll and Github Pages</title><link href="http://localhost:4000/jekyll/update/2016/12/04/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Blogging using Jekyll and Github Pages" /><published>2016-12-04T09:19:43+05:30</published><updated>2016-12-04T09:19:43+05:30</updated><id>http://localhost:4000/jekyll/update/2016/12/04/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2016/12/04/welcome-to-jekyll.html"></content><summary type="html"></summary></entry></feed>
