@@ -5,4 +5,4 @@
       <p><a href="{{ project.link }}">{{ project.name }}</a><br><small>{{ project.description }}</small></p>
     </li>
     {% endfor %}
-</ul>-->
+</ul>
