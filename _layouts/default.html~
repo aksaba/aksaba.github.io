@@ -17,15 +17,14 @@
 					<a href="mailto:{{ site.email }}" class="mail-icon btn"><i class="icon ion-email"></i></a>
 					<a href="feed.xml" class="rss-icon btn"><i class="icon ion-social-rss"></i></a>
 				</div>
-				<!--<br> </br>
-				<div style="text-align:center">
-				<img src="http://i.imgur.com/uQTyCkh.png" alt="logo" width="120px" height="120px"></div>
-				<!--<div class="unit whole hide-on-mobiles" id="/projects">
+				<div class="unit whole hide-on-mobiles" id="/projects">
 					{% include projects.html %}
 				
 				<div class="unit whole hide-on-mobiles" id="/impressum">
 					{% include imprint.html %}
-				</div></div>-->
+				</div></div>
+				<div lass="unit whole" id="/projects">
+				{%include aboutme.html %}</div>
 			</div>
 		</div>
 		<div class="unit two-thirds blog-column">
@@ -43,13 +42,13 @@
 		<div class="unit whole hide-on-desktops" id="/projects">
 			{% include projects.html %}
 		</div>
-		<!--
+		
 		<div class="unit whole hide-on-desktops" id="/impressum">
 			{% include imprint.html %}
 		</div>
 	</div>
 
-	{% include foot.html %} -->
+	{% include foot.html %}
 
 </body>
 
