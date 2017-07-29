@@ -33,8 +33,8 @@ Some photos from my conference trip to Incheon, South Korea:
 ![cpark2](https://c1.staticflickr.com/6/5763/31261595992_3639d2f245.jpg "Flower Garden 2")
 
 #### Haedoji Park
-
-![hpark1](https://c2.staticflickr.com/6/5478/31301020081_f677b637bf.jpg "Haedoji Park - one of the entrances")
+  
+ <!-- ![hpark1](https://c2.staticflickr.com/6/5478/31301020081_f677b637bf.jpg "Haedoji Park - one of the entrances") -->
 
 ![hpark2](https://c5.staticflickr.com/6/5602/31270945652_4a3005ae26.jpg "Haedoji Park Flowers")
 
