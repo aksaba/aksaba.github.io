@@ -6,7 +6,7 @@ categories: jekyll update
 ---
 Some photos from my conference trip to Incheon, South Korea:
 
-undefinedundefined<script id="asp-embed-script" data-zindex="1000000" type="text/javascript" charset="utf-8" src="https://spark.adobe.com/page-embed.js"></script><a class="asp-embed-link" href="https://spark.adobe.com/page/rizoFSFAgGejo/" target="_blank"><img src="https://spark.adobe.com/page/rizoFSFAgGejo/embed.jpg?buster=1554977447512" alt="IAQVEC 2016" style="width:100%" border="0" /></a>
+<a class="asp-embed-link" href="https://spark.adobe.com/page/rizoFSFAgGejo/" target="_blank"><img src="https://spark.adobe.com/page/rizoFSFAgGejo/embed.jpg?buster=1554977447512" alt="IAQVEC 2016" style="width:100%" border="0" /></a>
 
 #### Incheon International Airport
 
