@@ -9,9 +9,12 @@ categories: jekyll update
 
 <div style="text-align:justify">
 <p>
-This is day 10 of the lock down which is in effect because of the worldwide COVID19 outbreak. I'm in the last stretch of my doctoral research and I have hit a roadblock. Using my laptop and remote computing, some progress was possible in the last 10 to 15 days. But, I have to admit that this has been a difficult situation for me to focus on my research. Meanwhile, the outbreak, though saddening, is intriguing for a researcher. Tons of data on the outbreak is pouring in from all over the world everyday. So, I have decided to practice some data visualization technqiues using the data. I will be using python language and the bokeh library, in particular, to visualize and then embed the results here. The dataset I will be working on is that the COVID19 outbreak data for my home state of Tamil Nadu. The source is the official website of the Tamil Nadu health department dedicated for addressing the COVID19 outbreak. Hopefully, the website is regulary updated so that I can also regularly update the visualizations.
+This is day 10 of the lock down which is in effect because of the worldwide COVID19 outbreak. I'm in the last stretch of my doctoral research and I have hit a roadblock. Using my laptop and remote computing, some progress was possible in the last 10 to 15 days. But, I have to admit that this has been a difficult situation for me to focus on my research. Meanwhile, the outbreak, though saddening, is intriguing phenomenon for any researcher. Tons of data on the outbreak is pouring in from all over the world everyday. So, I have decided to practice some data visualization technqiues making use of the data. I will be using python language (v3.8.2) and the [bokeh library] (https://bokeh.org/), in particular, to visualize and then embed the results here. The dataset I will be working on is the COVID19 outbreak data for my home state of Tamil Nadu. The source is the [official website](https://stopcorona.tn.gov.in/) of the Tamil Nadu health department dedicated for addressing the COVID19 outbreak. Hopefully, the source is regulary updated so that I can also regularly update the visualizations.
 </p>
 
+<p>
+Below presented are the cumulative and daily new positive cases of COVID19 in Tamil Nadu. 
+</p>
   <head>
     
       <meta charset="utf-8">
