@@ -13,7 +13,7 @@ url: "http://aksaba.github.io" # replace by your site's url
 twitter_username: aksabapathy
 github_username:  aksaba # (your name)
 accent: "#f7f7e6" # accent color for blog column
-
+remote_theme: christianezeani/panthera-jekyll
 author: "Karthik Sabapathy"
 address: "Chennai, India"
 email: "aksabapathy@gmail.com"
