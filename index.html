@@ -1,17 +1,26 @@
 ---
 layout: default
----
-<!-- Posts -->
-<ul id="posts">
+--- 
 
-	{% for post in paginator.posts %}
+{% for post in site.posts %}
+<div id="{{ post.date | date: "%F-%H" }}" class="unit whole align-left post">
+	<article itemscope itemtype="http://schema.org/BlogPosting">
+		<h2>{{ post.title }}<br>
+		<small class="chip">{{ post.date | date: "%b %-d, %Y" }}</small>
+		<a class="chip" href="https://twitter.com/intent/tweet?text={{ post.title | cgi_escape }}&url={{ post.date | date: "%F-%H" | prepend: "#" | prepend: site.baseurl | prepend: site.url | cgi_escape }}"><i class="icon ion-social-twitter"></i> TWEET</a>
+		<a class="chip" href="{{ site.url }}{{ site.baseurl }}#{{ post.date | date: "%F-%H" }}"><i class="icon ion-android-share-alt"></i> LINK</a>
+		</h2>
+		
+		<div class="post-content">
+			{{ post.content }}
+		</div>
 
-	  <li class="post">
-	  	<h2><a href="{% if site.baseurl == "/" %}{{ post.url }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}">{{ post.title }}</a></h2>
-	  	<time datetime="{{ post.date | date_to_xmlschema }}" class="by-line">{{ post.date | date_to_string }}</time>
-	  	<p>{{ post.content | strip_html | truncatewords:50 }}</p>
-	  </li>
+		{% if post.author %}
+		<span class="chip" itemprop="author" itemscope itemtype="http://schema.org/Person">
+			<span itemprop="name">Article by {{ post.author }}</span>
+		</span>
+		{% endif %}
 
-    {% endfor %}
-
-</ul>
+	</article>
+</div>
+{% endfor %}

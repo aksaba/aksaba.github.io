@@ -12,7 +12,7 @@
 					<p>{{ site.description }}</p>
 				</div>
 				<div class="unit whole" id="/contact">
-					<!--<a href="https://twitter.com/{{ site.twitter_username }}" class="twitter-icon btn"><i class="icon ion-social-twitter"></i></a>-->
+					<a href="https://twitter.com/{{ site.twitter_username }}" class="twitter-icon btn"><i class="icon ion-social-twitter"></i></a>
 					<a href="https://github.com/{{ site.github_username }}" class="github-icon btn"><i class="icon ion-social-github"></i></a>
 					<a href="mailto:{{ site.email }}" class="mail-icon btn"><i class="icon ion-email"></i></a>
 					<a href="feed.xml" class="rss-icon btn"><i class="icon ion-social-rss"></i></a>
@@ -24,7 +24,7 @@
 					{% include imprint.html %}
 				</div></div>
 				<div lass="unit whole" id="/projects">
-				{%include nav.html %}</div>
+				{%include aboutme.html %}</div>
 			</div>
 		</div>
 		<div class="unit two-thirds blog-column">
