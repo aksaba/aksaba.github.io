@@ -199,7 +199,7 @@ Apart from the official Python and Bokeh documentations and numerous google sear
 <script type="text/javascript">
 
       var dataset
-      d3.csv("Book2.csv",  function(error,d){
+      d3.csv("https://github.com/aksaba/aksaba.github.io/blob/master/_data/Book2.csv",  function(error,d){
         if(error){
           console.log(error);
         }
