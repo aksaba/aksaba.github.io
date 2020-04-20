@@ -78,17 +78,18 @@
 body{
 	
 }
-.grid {
+/*.grid {
 	background-color: #42B395;
 }
-
+*/
 .one-third{
 	background-color: #42B395;
 }
-
+/*
 .two-thirds{
 	background-color: #BDF8A3;
 }
+*/
 /* Utility classes */
 .align-center { text-align: center; }
 .align-left   { text-align: left; }
