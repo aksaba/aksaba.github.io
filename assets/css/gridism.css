@@ -75,6 +75,10 @@
   clear: both;
 }
 
+.one-third {
+	background-color: #FDDC5C;
+}
+
 /* Utility classes */
 .align-center { text-align: center; }
 .align-left   { text-align: left; }
