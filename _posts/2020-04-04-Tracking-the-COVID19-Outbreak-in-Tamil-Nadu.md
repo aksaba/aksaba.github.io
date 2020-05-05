@@ -9,12 +9,6 @@ categories: jekyll update
 
 <p>Graphs updated: 2115 hours 05 May 2020 </p>
 
-
-
-
-
-<!DOCTYPE html>
-<html lang="en">
   
   <head>
     
@@ -92,17 +86,7 @@ categories: jekyll update
         </script>
     
   </body>
-  
-</html>
-
-
-
-
-
-<!DOCTYPE html>
-<html lang="en">
-  
-  <head>
+ <head>
     
       <meta charset="utf-8">
       <title>Bokeh Plot</title>
@@ -178,9 +162,6 @@ categories: jekyll update
         </script>
     
   </body>
-  
-</html>
-
 <div style="text-align:justify">
 
 <p> 04 April 2020 </p>
