@@ -7,7 +7,7 @@ categories: jekyll update
 
 ---
 
-<p>Graph updated: 2115 hours 04 May 2020 </p>
+<p>Graphs updated: 2115 hours 05 May 2020 </p>
 
 <head>
     
