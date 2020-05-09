@@ -16,7 +16,7 @@ accent: "#f7f7e6" # accent color for blog column
 remote_theme: christianezeani/panthera-jekyll
 author: "Karthik Sabapathy"
 address: "Chennai, India"
-email: "aksabapathy@gmail.com"
+email: ""
 
 # google analytics tracking code, please change the value
 g_analytics: ""
