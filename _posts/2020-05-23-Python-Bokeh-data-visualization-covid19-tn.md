@@ -8,13 +8,12 @@ categories: jekyll update
 ---
 
 <p>
-I am sharing below the python codes for the data visualiztion of the COVID19 outbreak in Tamil Nadu in my previous most. Please note that I'm not a professional programmer and so, the codes could be considered crude by expert coders. I hope my codes don't scare them too much. The programs are meant to just about work and far from being memory-efficient. So, tread with caution! All of the plots have interactive tooltips on hovering. The last plot uses a dropdown selection menu which allows users to select an option among many and the appropriate graph appears. The data along with the codes can also be found here: https://github.com/aksaba/MyCodes/tree/master/Py/DataVisualisation/TNCOVID19
+I am sharing below the python codes for the data visualiztion of the COVID19 outbreak in Tamil Nadu in my previous most. Please note that I'm not a professional programmer and so, the codes could be considered crude by expert coders. I hope my codes don't scare them too much. The programs are meant to just about work and far from being memory-efficient. So, tread with caution! All of the plots have interactive tooltips on hovering. The last plot uses a dropdown selection menu which allows users to select an option among many and the appropriate graph appears. The data along with the codes can also be found here: <a href="https://github.com/aksaba/MyCodes/tree/master/Py/DataVisualisation/TNCOVID19"> Data and Codes </a>
 </p>
 <p>
 Cumulative and Daily cases - bar graphs
 </p>
-check!
-<div style="height:600px;width:400px;border:1px solid #ccc;font-family:'Courier New';overflow:auto">
+<div style="height:600px;width:850px;border:1px solid #ccc;font-family:'Courier New';overflow:auto">
 <pre><code>
 
 ########################################################################
@@ -96,13 +95,16 @@ save(column(plot1,plot2))
 <p>
 Total samples tested with %total positive cases and %total active cases - three line plots in the same graph along with a secondary y-axis
 </p>
-<pre>
-<code>
-<style= fontface:Courier New">
+<div style="height:600px;width:850px;border:1px solid #ccc;font-family:'Courier New';overflow:auto">
+<pre><code>
 ########################################################################
+
 ## Three line plots in the same graph
+
 ## Secondary y-axis for one of the plots
+
 ## Interactive tooltips for each plot
+
 ########################################################################
 
 from bokeh.plotting import output_file,save,figure,show
@@ -157,17 +159,22 @@ plot1.ygrid.visible = False
 
 save(plot1)
 
-</code>
+</code> </pre></div>
 
 <p>
 Number of deaths and %mortality- bar plot and line plot in the same graph, secondary y-axis
 </p>
-<code>
+<div style="height:600px;width:850px;border:1px solid #ccc;font-family:'Courier New';overflow:auto">
+<pre><code>
 
 ########################################################################
+
 ## Bar plot and line plot in one graph
+
 ## Secondary y-axis for the line plot
+
 ## Interactive tooltips
+
 ########################################################################
 
 from bokeh.plotting import output_file,save,figure,show
@@ -217,17 +224,22 @@ plot1.add_tools(HoverTool(tooltips=[("DATE", "@x"), ("No. of deaths","@death_cou
 plot1.add_layout(mytext1)
 
 save(plot1)
-</code>
+</code> </pre></div>
 
 <p>
 District wise trends - multiple graphs with selection dropdown menu
 </p>
-<code>
+<div style="height:600px;width:850px;border:1px solid #ccc;font-family:'Courier New';overflow:auto">
+<pre><code>
 
 ########################################################################
+
 ## Multiple bar plots
+
 ## Selection box allows user to select an option among several
+
 ## Interactive tooltips
+
 ########################################################################
 
 
@@ -314,4 +326,4 @@ select = Select(title="Select District:", width =140, value="Ariyalur", options=
 select.js_on_change('value', callback)
 save(row(select,plot1))
 
-</code>
+</code> </pre></div>
