@@ -14,7 +14,7 @@ I am sharing below the python codes for the data visualiztion of the COVID19 out
 Cumulative and Daily cases - bar graphs
 </p>
 
-<p style="font-family:'Courier New'">
+<p style="font-family:'Courier New';overflow:auto">
 <pre><code>
 
 ########################################################################
