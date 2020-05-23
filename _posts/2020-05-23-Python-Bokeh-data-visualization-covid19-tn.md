@@ -8,7 +8,7 @@ categories: jekyll update
 ---
 
 <p>
-I am sharing below the python codes for the data visualiztion of the COVID19 outbreak in Tamil Nadu in my previous most. Please note that I'm not a professional programmer and so, the codes could be considered crude by expert coders. I hope my codes don't scare them too much. The programs are meant to just about work and far from being memory-efficient. So, tread with caution! All of the plots have interactive tooltips on hovering. The last plot uses a dropdown selection menu which allows users to select an option among many and the appropriate graph appears. The data along with the codes can also be found here: <a href="https://github.com/aksaba/MyCodes/tree/master/Py/DataVisualisation/TNCOVID19"> Data and Codes </a>
+I am sharing below the python codes for the data visualiztion of the COVID19 outbreak in Tamil Nadu in my previous post. Please note that I'm not a professional programmer and so, the codes could be considered crude by expert coders. I hope my codes don't scare them too much. The programs are meant to just about work and far from being memory-efficient. So, tread with caution! All of the plots have interactive tooltips on hovering. The last plot uses a dropdown selection menu which allows users to select an option among many and the appropriate graph appears. The data along with the codes can also be found here: <a href="https://github.com/aksaba/MyCodes/tree/master/Py/DataVisualisation/TNCOVID19"> Data and Codes </a>
 </p>
 <p>
 Cumulative and Daily cases - bar graphs
