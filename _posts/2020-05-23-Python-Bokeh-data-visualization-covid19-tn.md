@@ -13,8 +13,8 @@ I am sharing below the python codes for the data visualiztion of the COVID19 out
 <p>
 Cumulative and Daily cases - bar graphs
 </p>
-
-<p style="font-family:'Courier New';overflow:auto">
+check!
+<div style="font-family:'Courier New';overflow:auto">
 <pre><code>
 
 ########################################################################
@@ -91,7 +91,7 @@ plot2.add_layout(mytext2)
 
 save(column(plot1,plot2))
 
-</p></code> </pre>
+</div></code> </pre>
 
 <p>
 Total samples tested with %total positive cases and %total active cases - three line plots in the same graph along with a secondary y-axis
