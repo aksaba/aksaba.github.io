@@ -13,12 +13,16 @@ I am sharing below the python codes for the data visualiztion of the COVID19 out
 <p>
 Cumulative and Daily cases - bar graphs
 </p>
-<pre>
-<code>
+
+<p style="font-family:'Courier New'">
+<pre><code>
 
 ########################################################################
+
 ## Two bar graphs arranged one below the other
+
 ## Interactive tooltips
+
 ########################################################################
 
 from bokeh.plotting import output_file,save,figure,show
@@ -87,14 +91,14 @@ plot2.add_layout(mytext2)
 
 save(column(plot1,plot2))
 
-</code>
-</pre>
+</p></code> </pre>
 
 <p>
 Total samples tested with %total positive cases and %total active cases - three line plots in the same graph along with a secondary y-axis
 </p>
+<pre>
 <code>
-
+<style= fontface:Courier New">
 ########################################################################
 ## Three line plots in the same graph
 ## Secondary y-axis for one of the plots
