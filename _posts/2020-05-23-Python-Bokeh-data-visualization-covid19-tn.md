@@ -14,13 +14,16 @@ I am sharing below the python codes for the data visualiztion of the COVID19 out
 Cumulative and Daily cases - bar graphs
 </p>
 <code>
+
 ########################################################################
 \## Two bar graphs arranged one below the other
 \## Interactive tooltips
 ########################################################################
+
 from bokeh.plotting import output_file,save,figure,show
 from bokeh.layouts import column
 from bokeh.models import DatetimeTickFormatter,ranges,Dropdown, SingleIntervalTicker,Label,HoverTool,ColumnDataSource,FactorRange
+
 import csv
 import numpy as np
 output_file('vbar_cumulative_daily.html')
@@ -36,9 +39,12 @@ data = {'DATE' : DATE,
 x = data['DATE']
 pos_counts = data['POS_COUNT']
 daily_counts = data['DAILY_POS_COUNT']
+
 source = ColumnDataSource(data=dict(x=x, pos_counts=pos_counts,daily_counts=daily_counts))
+
 mytext1_ypos = int(pos_counts[len(pos_counts)-1])-600
 mytext1 = Label(x=1, y=mytext1_ypos, text='Day 0 (first detected case): 07 March 2020')
+
 plot1 = figure(x_range=FactorRange(*x),plot_width=700,plot_height=350,title="Number of positive cases (Cumulative)")
 plot1.vbar('x', top='pos_counts', width=0.9, source=source)
 plot1.title.text_font_size = "15pt"
@@ -56,8 +62,10 @@ plot1.yaxis.major_label_text_font_size = "10pt"
 plot1.yaxis.axis_label_text_font_size = "15pt"
 plot1.add_tools(HoverTool(tooltips=[("DATE", "@x"), ("No. of cases", "@pos_counts")]))
 plot1.add_layout(mytext1)
+
 mytext2_ypos = int(daily_counts[len(daily_counts)-1])+20
 mytext2 = Label(x=1, y=mytext2_ypos, text='Day 0 (first detected case): 07 March 2020')
+
 plot2 = figure(x_range=x, plot_width=700,plot_height=350,title="Number of daily positive cases")
 plot2.vbar(x='x', top='daily_counts', width=0.9, source=source)
 plot2.title.text_font_size = "15pt"
@@ -75,18 +83,22 @@ plot2.yaxis.major_label_text_font_size = "10pt"
 plot2.yaxis.axis_label_text_font_size = "15pt"
 plot2.add_tools(HoverTool(tooltips=[("DATE", "@x"), ("No. of cases", "@daily_counts")]))
 plot2.add_layout(mytext2)
+
 save(column(plot1,plot2))
+
 </code>
 
 <p>
 Total samples tested with %total positive cases and %total active cases - three line plots in the same graph along with a secondary y-axis
 </p>
 <code>
+
 ########################################################################
-\## Three line plots in the same graph
-\## Secondary y-axis for one of the plots
-\## Interactive tooltips for each plot
+## Three line plots in the same graph
+## Secondary y-axis for one of the plots
+## Interactive tooltips for each plot
 ########################################################################
+
 from bokeh.plotting import output_file,save,figure,show
 from bokeh.models import HoverTool,ColumnDataSource,FactorRange,Range1d,LinearAxis,Label,SingleIntervalTicker
 import csv
@@ -94,6 +106,7 @@ import numpy as np
 output_file('vbar_samples.html')
 with open("Book2.csv") as csvfile:
     csvdata = list(csv.reader(csvfile))
+
 DATE = [item[0] for item in csvdata]
 SAMPLES = [item[3] for item in csvdata]
 PERCENT_POS = [item[4] for item in csvdata]
@@ -106,6 +119,7 @@ x = data['DATE']
 samples = data['SAMPLES']
 percent_pos = data['PERCENT_POS']
 percent_act = data['PERCENT_ACT']
+
 mytext1_ypos = float(samples[len(samples)-1])-20  # decrease number
 mytext1 = Label(x=1, y=mytext1_ypos, text='Day 0 (first detected case): 07 March 2020')
 ymax = float(samples[len(samples)-1])+5
@@ -134,18 +148,22 @@ plot1.add_layout(mytext1)
 legend_ypos = float(samples[len(samples)-1])-215  # Decrease number
 plot1.legend.location = (1,legend_ypos)
 plot1.ygrid.visible = False
+
 save(plot1)
+
 </code>
 
 <p>
 Number of deaths and %mortality- bar plot and line plot in the same graph, secondary y-axis
 </p>
 <code>
+
 ########################################################################
-\## Bar plot and line plot in one graph
-\## Secondary y-axis for the line plot
-\## Interactive tooltips
+## Bar plot and line plot in one graph
+## Secondary y-axis for the line plot
+## Interactive tooltips
 ########################################################################
+
 from bokeh.plotting import output_file,save,figure,show
 from bokeh.models import HoverTool,ColumnDataSource,FactorRange,Range1d,LinearAxis,DatetimeTickFormatter,ranges, SingleIntervalTicker, Label
 import csv
@@ -153,6 +171,7 @@ import numpy as np
 output_file('vbar_mortality.html')
 with open("Book2.csv") as csvfile:
     csvdata = list(csv.reader(csvfile))
+
 DATE = [item[0] for item in csvdata]
 DEATH_COUNT = [item[9] for item in csvdata]
 DEATH_PERCENT = [item[10] for item in csvdata]
@@ -164,8 +183,10 @@ death_counts = data['DEATH_COUNT']
 death_percent = data['DEATH_PERCENT']
 ymax = int(death_counts[len(death_counts)-1])+5
 source = ColumnDataSource(data=dict(x=x, death_counts=death_counts,death_percent=death_percent))
+
 mytext1_ypos = int(death_counts[len(death_counts)-1])-5
 mytext1 = Label(x=1, y=mytext1_ypos, text='Day 0 (first detected case): 07 March 2020')
+
 plot1 = figure(x_range=x,y_range=(0,ymax),plot_width=700,plot_height=350,title="Number of deaths (Cumulative) and % mortality rate")
 plot1.extra_y_ranges = {"foo": Range1d(start=0, end=5)}
 plot1.vbar('x', top='death_counts', width=0.9, source=source)
@@ -188,6 +209,7 @@ legend_ypos = float(death_counts[len(death_counts)-1])+150  # Decrease number
 plot1.legend.location = (1,legend_ypos)
 plot1.add_tools(HoverTool(tooltips=[("DATE", "@x"), ("No. of deaths","@death_counts"),("% mortality", "@death_percent")]))
 plot1.add_layout(mytext1)
+
 save(plot1)
 </code>
 
@@ -195,11 +217,14 @@ save(plot1)
 District wise trends - multiple graphs with selection dropdown menu
 </p>
 <code>
+
 ########################################################################
-\## Multiple bar plots
-\## Selection box allows user to select an option among several
-\## Interactive tooltips
+## Multiple bar plots
+## Selection box allows user to select an option among several
+## Interactive tooltips
 ########################################################################
+
+
 from bokeh.plotting import output_file,save,figure,show
 from bokeh.models import HoverTool,ColumnDataSource,FactorRange,DatetimeTickFormatter,ranges,Select
 from bokeh.models.callbacks import CustomJS
@@ -207,8 +232,10 @@ from bokeh.layouts import row
 import csv
 import numpy as np
 output_file('vbar_districts.html')
+
 with open("districts.csv") as csvfile:
     csvdata = list(csv.reader(csvfile))
+
 DATE = [item[0] for item in csvdata]
 i = 0
 y = []
@@ -218,6 +245,7 @@ while i < 37 :
 data = {'DATE' : DATE}
 x = data['DATE']
 source = ColumnDataSource(data=dict(x=x, y=y[0],y0=y[0],y1=y[1],y2=y[2],y3=y[3],y4=y[4],y5=y[5],y6=y[6],y7=y[7],y8=y[8],y9=y[9],y10=y[10],y11=y[11],y12=y[12],y13=y[13],y14=y[14],y15=y[15],y16=y[16],y17=y[17],y18=y[18],y19=y[19],y20=y[20],y21=y[21],y22=y[22],y23=y[23],y24=y[24],y25=y[25],y26=y[26],y27=y[27],y28=y[28],y29=y[29],y30=y[30],y31=y[31],y32=y[32],y33=y[33],y34=y[34],y35=y[35],y36=y[36]))
+
 plot1 = figure(x_range=x,plot_width=550,plot_height=350,title="Number of active cases in the last 21 days")
 plot1.vbar('x', top='y', source=source,width = 0.8)
 plot1.title.text_font_size = "12pt"
@@ -230,6 +258,7 @@ plot1.yaxis.axis_label_text_font_style = "normal"
 plot1.yaxis.major_label_text_font_size = "10pt"
 plot1.yaxis.axis_label_text_font_size = "15pt"
 plot1.add_tools(HoverTool(tooltips=[("DATE", "@x"), ("No. of cases", "@y")]))
+
 callback = CustomJS(args=dict(source=source),code="""
         var data = source.data;
         var f = cb_obj.value
@@ -274,7 +303,9 @@ callback = CustomJS(args=dict(source=source),code="""
         source.change.emit();
 
     """)
+
 select = Select(title="Select District:", width =140, value="Ariyalur", options=["Ariyalur","Chengalpattu","Chennai","Coimbatore","Cuddalore","Dharmapuri","Dindigul","Erode","Kallakurichi","Kancheepuram","Kanyakumari","Karur","Krishnagiri","Madurai","Nagapattinam","Namakkal","Nilgiris","Perambalur","Pudukottai","Ramnad","Ranipet","Salem","Sivagangai","Tenkasi","Thanjavur","Theni","Thirupathur","Thiruvallur","Thiruvannamalai","Thiruvarur","Thoothukudi","Tirunelveli","Tiruppur","Trichy","Vellore","Villupuram","Virudhunagar"])
 select.js_on_change('value', callback)
 save(row(select,plot1))
+
 </code>
