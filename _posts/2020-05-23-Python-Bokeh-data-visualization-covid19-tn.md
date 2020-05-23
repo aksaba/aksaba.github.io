@@ -13,7 +13,7 @@ I am sharing below the python codes for the data visualiztion of the COVID19 out
 <p>
 Cumulative and Daily cases - bar graphs
 </p>
-<p style="font-family:'Courier New'">
+<code>
 
 ########################################################################
 ## Two bar graphs arranged one below the other
@@ -86,12 +86,12 @@ plot2.add_layout(mytext2)
 
 save(column(plot1,plot2))
 
-</p>
+</code>
 
 <p>
 Total samples tested with %total positive cases and %total active cases - three line plots in the same graph along with a secondary y-axis
 </p>
-<p style="font-family:'Courier New'">
+<code>
 
 ########################################################################
 ## Three line plots in the same graph
@@ -151,12 +151,12 @@ plot1.ygrid.visible = False
 
 save(plot1)
 
-</p>
+</code>
 
 <p>
 Number of deaths and %mortality- bar plot and line plot in the same graph, secondary y-axis
 </p>
-<p style="font-family:'Courier New'">
+<code>
 
 ########################################################################
 ## Bar plot and line plot in one graph
@@ -211,12 +211,12 @@ plot1.add_tools(HoverTool(tooltips=[("DATE", "@x"), ("No. of deaths","@death_cou
 plot1.add_layout(mytext1)
 
 save(plot1)
-</p>
+</code>
 
 <p>
 District wise trends - multiple graphs with selection dropdown menu
 </p>
-<p style="font-family:'Courier New'">
+<code>
 
 ########################################################################
 ## Multiple bar plots
@@ -308,4 +308,4 @@ select = Select(title="Select District:", width =140, value="Ariyalur", options=
 select.js_on_change('value', callback)
 save(row(select,plot1))
 
-</p>
+</code>
