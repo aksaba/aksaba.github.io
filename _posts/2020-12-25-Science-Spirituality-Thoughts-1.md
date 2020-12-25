@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Science-Spirituality-Thoughts-1"
-date:   2020-05-23 21:00:00 +0530
+date:   2020-12-25 05:00:00 +0530
 categories: jekyll update
 
 
