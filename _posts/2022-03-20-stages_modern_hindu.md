@@ -7,7 +7,7 @@ categories: jekyll update
 
 ---
 
-###Introduction
+### Introduction
 
 I am neither religious nor an expert in religious studies. Any errors or
 misjudgments on my part must be forgiven by the readers. What I've written here
@@ -24,7 +24,7 @@ characteristics and tendencies, such as empathy, selfishness, altruism, greed,
 and sacrifice that we all possess to a certain degree. We begin with the lowest
 ranked stage and move up the ladder.
 
-###(4) The Briber
+### (4) The Briber
 
 As the name suggests, the briber is only interested in the divine when they
 want something. They offer to do this or do that in exchange for god's gifts.
@@ -42,7 +42,7 @@ materialistic (it may very well be), but the person may simply be searching for
 love and care, which cannot be deemed as materialistic. So, the person would be
 a Performer rather than a Briber.
 
-###(3) The Performer
+### (3) The Performer
 
 The Performer loves to put on a show. For a Hindu, the performances usually
 include rituals such as yajnas, loud chanting of mantras, pilgrimages to
@@ -66,7 +66,7 @@ when it comes to religious practices. With modern Hinduism stressing heavily on
 rituals and pilgrimages, the performer may very well be the majority or, in
 other words, the majority of the Hindu population tend toward performative behavior.
 
-###(2) The Reader
+### (2) The Reader
 
 The reader does not lay emphasis on performative practices, rather he is
 interested in reading and learning. As mentioned earlier, the reader possesses
@@ -82,7 +82,7 @@ the performer. So, the knowledge that the reader gains from hours and hours of
 reading and learning is only superficial, and the reader stops short of
 contemplating about the knowledge.
 
-###(1) The Philosopher
+### (1) The Philosopher
 
 The modern Hindu philosopher is not very different from a conventional
 philosopher. As I had hinted in the previous section, the word
@@ -99,7 +99,7 @@ and philosophies in Hindu religion. Many of their ideas are still followed
 sincerely by Hindus today. One who strives to become the philosopher is
 open-minded and tolerant, in addition to being nonmaterialistic.
 
-###Conclusion
+### Conclusion
 
 The four stages are ranked this way because I believe that a modern Hindu,
 throughout their life, should constantly aim to move up the ladder and reach
