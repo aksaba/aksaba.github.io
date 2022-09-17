@@ -9,8 +9,7 @@ categories: jekyll update
 I've some interest in creating data visualizations that are both aesthetically pleasing and effective in communicating the author's intended idea. My PhD program provided ample opportunity to create such visualizations to depict some of the research themes related to my work. In this post, I thought I'd post these visualizations. I created these visualizations in the open-source data plotting software, Veusz. Veusz is an excellent and useful software with a wide variety of formatting options. I had acknowledged the software in my thesis as well.
 
 ###  A simple bar plot with background images
-![pic1](https://github.com/aksaba/aksaba.github.io/blob/master/images/17Sep_pic1.jpg)
-
+![pic1]([17Sep_pic1.jpg (838×414) (raw.githubusercontent.com)](https://raw.githubusercontent.com/aksaba/aksaba.github.io/master/images/17Sep_pic1.jpg))
 This is a simple bar plot showing the number of papers published in relation to the research conducted on building insulation materials based on different types of agricultural residue. To make this rather simple visualization is little more attractive, I made the bars wider and included images of the agricultural residues as background. 
 
 ###  Values of a single variable selected by authors
