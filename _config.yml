@@ -12,10 +12,11 @@ title: "Ak Sabapathy"
 description: "Welcome to my blog!"
 baseurl: ""
 url: "http://aksaba.github.io" # replace by your site's url
-twitter_username: aksabapathy
+#twitter_username: aksabapathy
 github_username:  aksaba # (your name)
-accent: "#f7f7e6" # accent color for blog column
-remote_theme: christianezeani/panthera-jekyll
+#accent: "#a8edbc" # accent color for blog column
+remote_theme: pages-themes/leap-day@v0.2.0
+#remote_theme: christianezeani/panthera-jekyll
 author: "Karthik Sabapathy"
 address: "Chennai, India"
 # email: ""
