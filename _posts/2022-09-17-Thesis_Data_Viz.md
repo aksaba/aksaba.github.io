@@ -15,6 +15,7 @@ This is a simple bar plot showing the number of papers published in relation to 
 
 ###  Values of a single variable selected by authors
 ![17Sep_pic2.jpg (353×847) (raw.githubusercontent.com)](https://raw.githubusercontent.com/aksaba/aksaba.github.io/master/images/17Sep_pic2.jpg)
+
 All of the more creative visualizations that I had done were for the literature review chapter. This one shows the values of density of a building insulation material (straw in this case) selected by various researchers over the years. I made the markers into big boxes, which are either shaded or transparent to show that the values are continuous or discrete, respectively, so that the plot is distinct and attracts the attention of the reader.
 
 ###  Showcasing variation in multiple variables
