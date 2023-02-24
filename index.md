@@ -2,122 +2,20 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+Hello! I'm Karthik.
 
-[Link to another page](./another-page.html).
+I'm currently working independently as a technical and
+language editor. Occasionally, I like to foray into various other activities,
+including research, reading and writing, data visualization, and coding, and
+this blog features some of the results of these activities (check out the links on the left). I'm also interested
+in CFD simulation (I've done some simulation work as part of my doctoral
+research), cooking (I've temporarily filled in on several occasions as a cooking
+assistant to my mother in the kitchen at home), philosophy (as we grow old, we
+are inclined to philosophize about life, death, and everything in between), and
+investment analysis (to make money earn more money, of course!).
 
-There should be whitespace between paragraphs.
+I earned my PhD in 2020 from the Indian Institute of Technology Madras (IITM),
+Chennai, India. My topic of research is *Thermal Characterization of Straw and Evaluation of Thermal Performance of Concrete-Straw-Plaster Building Envelope for Different Climatic Zones of India.*  I authored, under the guidance of my PhD supervisor at IITM, [four research papers](https://scholar.google.com/citations?user=LBHOxzAAAAAJ&hl=en) and attended an international conference in Incheon, South Korea, during my doctoral program.  Prior to that, I obtained my master's degree in energy engineering from the Institute of Energy Studies at the College of Engineering, Anna University, Chennai, India, and my bachelor's degree in electrical engineering.
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
-
-# Header 1
-
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
-
-## Header 2
-
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
-
-### Header 3
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
-
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
-
-#### Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
+For the past two years, as a freelance editor, I've edited original research papers
+in mechanical, electrical, and civil engineering for  [Cactus Communications](https://cactusglobal.com/">Cactus Communications) and copyedited books on various subjects, such as science, engineering, technology, economics, mathematics, and management, for [Academic Consultancy and Editorial Services](https://www.acesworldwide.net/), which is part of  [World Scientific Publishing](https://worldscientific.com/). I have also done a fair bit of editing of research papers, theses, and reports
