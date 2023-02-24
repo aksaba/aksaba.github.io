@@ -1,8 +1,7 @@
 ---
-layout: post
-title:  "Trip to South Korea"
-date:   2016-12-04 09:19:43 +0530
-categories: photos
+layout: page
+title:  Photos
+
 
 ---
 
