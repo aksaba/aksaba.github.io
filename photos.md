@@ -4,21 +4,21 @@ layout: default
 
 ## My Clicks
 
-Some photos from my conference trip to Incheon, South Korea:
+### Incheon, South Korea
 
-#### Incheon International Airport
+**Incheon International Airport**
 
 ![airport1](https://c7.staticflickr.com/6/5566/31036768910_bc209d91cf.jpg  =100x100 "Incheon International Airport")
 
 ![airport2](https://c8.staticflickr.com/6/5600/31405715055_a5244593d5.jpg  "Incheon International Airport")
 
-#### Conference Venue - Songdo Convensia during Day and Night
+**Conference Venue - Songdo Convensia during Day and Night**
 
 ![convday](https://c1.staticflickr.com/6/5593/31036756880_30e8176278.jpg "Convensia During Day")
 
 ![convnight](https://c3.staticflickr.com/6/5532/31038068970_8f49085a91.jpg "Convensia During Night")
 
-#### NC Cube Walk
+**NC Cube Walk**
 
 ![cube1](https://c3.staticflickr.com/6/5623/31036945170_eb0b4f8985.jpg "Entering the Cube Walk")
 
@@ -26,13 +26,13 @@ Some photos from my conference trip to Incheon, South Korea:
 
 ![cube3](https://c1.staticflickr.com/6/5722/31261648632_c38039f120.jpg "Another Fountain")
 
-#### Central Park
+**Central Park**
 
 ![cpark1](https://c8.staticflickr.com/6/5561/30598641143_e5195d938b.jpg "Flower Garden 1")
 
 ![cpark2](https://c1.staticflickr.com/6/5763/31261595992_3639d2f245.jpg "Flower Garden 2")
 
-#### Haedoji Park
+**Haedoji Park**
 
  <!-- ![hpark1](https://c2.staticflickr.com/6/5478/31301020081_f677b637bf.jpg "Haedoji Park - one of the entrances") -->
 
@@ -45,3 +45,8 @@ Some photos from my conference trip to Incheon, South Korea:
 ![hpark5](https://c2.staticflickr.com/6/5635/31415541825_5e0906db32.jpg "Sunset at the Park")
 
 [back](./)
+
+### IITM in the Aftermath of Vardah
+
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/aksabapathy/30865014663/in/datetaken-public/" title="Ravages of Vardha"><img src="https://live.staticflickr.com/555/30865014663_ef7b5d8c31.jpg" width="500" height="375" alt="Ravages of Vardha"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
