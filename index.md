@@ -2,7 +2,11 @@
 layout: default
 ---
 
-Hello! I'm Karthik.
+# Hello! I'm Karthik.
+
+####  This is my portfolio page, showcasing my different works, including writings, photos, and codes.
+
+##### A little about me…
 
 I'm currently working independently as a technical and
 language editor. Occasionally, I like to foray into various other activities,
