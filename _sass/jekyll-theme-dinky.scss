@@ -218,7 +218,7 @@ td {
 header {
 	background-color: #171717;
 	color: #FDFDFB;
-  width:170px;
+  width:200px;
   float:left;
   position:fixed;
 	border: 1px solid #000;
@@ -251,6 +251,20 @@ h1.header, a.header, a.name, header a{
 	color: #fff;
 }
 
+h2.header {
+	font-family: Arvo, sans-serif;
+	font-size: 20px;
+	font-weight: 250;
+	line-height: 1.3em;
+	border-bottom: none;
+	margin-top: 0;
+}
+
+
+h2.header, a.header, a.name, header a{
+	color: white;
+}
+
 a.header {
 	text-decoration: underline;
 }
@@ -266,8 +280,8 @@ header ul {
 
 header li {
 	list-style-type: none;
-  width:132px;
-  height:15px;
+  width:172px;
+  height:20px;
 	margin-bottom: 12px;
 	line-height: 1em;
 	padding: 6px 6px 6px 7px;
@@ -304,7 +318,8 @@ a.buttons {
 	font-weight: normal;
 	text-shadow: rgba(0, 0, 0, 0.4) 0 -1px 0;
 	padding: 2px 2px 2px 22px;
-	height: 150px;
+	height: 	50px;
+	
 }
 
 a.github {
@@ -316,7 +331,7 @@ a.linkedin {
 }
 
 a.buttons:hover {
-	color: red;
+	color: yellow;
 	text-decoration: none;
 }
 

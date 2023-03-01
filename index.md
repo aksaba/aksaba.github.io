@@ -24,8 +24,3 @@ Chennai, India. My topic of research is *Thermal Characterization of Straw and E
 For the past two years, as a freelance editor, I've edited original research papers
 in mechanical, electrical, and civil engineering for  [Cactus Communications](https://cactusglobal.com/) and copyedited books on various subjects, such as science, engineering, technology, economics, mathematics, and management, for [Academic Consultancy and Editorial Services](https://www.acesworldwide.net/), which is part of  [World Scientific Publishing](https://worldscientific.com/). I have also done a fair bit of editing of research papers, theses, and reports
 
-<li class="download"><a class="buttons" href="./techwritings.html">Technical Writing</a></li>
-<li class="download"><a class="buttons" href="./genwritings.html">General Writings</a></li>
-<li class="download"><a class="buttons" href="./perwritings.html">Personal Writings</a></li>
-<li class="download"><a class="buttons" href="./codes.html">Codes</a></li>
-<li class="download"><a class="buttons" href="./photos.html">Photos</a></li>
