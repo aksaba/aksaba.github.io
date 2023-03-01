@@ -36,30 +36,42 @@ Throughout history, the climatic and cultural diversity of India necessitated th
 
 A report by the Intergovernmental Panel on Climate Change (IPCC) titled “Global Warming of 1.5 ℃” (Intergovernmental Panel on Climate Change, 2018) discusses the potential impacts of warming by 1.5 ℃ in the next 20 years and the preparatory steps needed to face the future in such a world. Coincidently, the report “The Future of Cooling” by OECD/IEA (International Energy Agency, 2018) estimates a dramatic rise in the demand for residential air-conditioning capacity in the same timeline. With the growing economy leading to an ever-expanding middle-income bracket combined with government initiatives, such as the “Pradhan Mantri Awas Yojana (PMAY)” (Business Today, 2015), aimed at rapid housing and urbanization of small cities, towns, and villages, the situation poses a major challenge to India’s commitment toward a low-carbon future. This is a challenge that also provides us with the opportunity for research, development, and eventual commercialization of sustainable construction materials, such as those based on straw. In India, large swathes of straw are burnt on open grounds. This practice is one of the leading causes of widespread air pollution reaching toxic levels in the neighboring towns and cities (Jain et al., 2014). The issue of stubble burning is described in detail by Kumar et al. (2015), in which the authors, based on previous studies, note that around two-thirds to three-fourths of paddy residue is burnt. A spectroradiometric image (NASA, 2013) captured by NASA’s Aqua satellite on November 12, 2013, showed the locations of active burning of paddy stubble in North India. The importance of the need for alternative applications of straw cannot be overstated since it could potentially prove to be doubly beneficial—curbing the pollution caused by the burning of straw and utilizing an eco-friendly waste material. The fact that straw can be thermally insulating makes it a worthwhile effort to further investigate the use of straw as a construction material. Straw, as bales or processed and fabricated in the form of panels, can be used as the primary construction material. Moreover, retrofitting existing conventional buildings with straw insulation is another option worth exploring. As we have seen that the utilization of any construction material for homes is inextricably linked with the comfort and well-being of the inhabitants, the investigation of thermal comfort in straw-based buildings in the context of Indian climatic conditions is an essential step leading to the realization of such buildings in practice.
 
+[back](./)
 
 ### Data Visualizations in My Thesis
 
 I've some interest in creating data visualizations that are both aesthetically pleasing and effective in communicating the author's intended idea. My PhD program provided ample opportunity to create such visualizations to depict some of the research themes related to my work. In this post, I thought I'd post these visualizations. I created these visualizations in the open-source data plotting software, Veusz. Veusz is an excellent and useful software with a wide variety of formatting options. I had acknowledged the software in my thesis as well.
 
-###  A simple bar plot with background images
-<!--  [17Sep_pic1.jpg (838×414) (raw.githubusercontent.com)](https://raw.githubusercontent.com/aksaba/aksaba.github.io/master/images/17Sep_pic1.jpg) -->!
+**A simple bar plot with background images**
+
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/aksabapathy/52718943409/in/datetaken-public/" title="simple_scatter"><img src="https://live.staticflickr.com/65535/52718943409_ed157e7dd1.jpg" width="500" height="206" alt="simple_scatter"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
 This is a simple bar plot showing the number of papers published in relation to the research conducted on building insulation materials based on different types of agricultural residue. To make this rather simple visualization is little more attractive, I made the bars wider and included images of the agricultural residues as background. 
 
-###  Values of a single variable selected by authors
-<!-- ![17Sep_pic2.jpg (353×847) (raw.githubusercontent.com)](https://raw.githubusercontent.com/aksaba/aksaba.github.io/master/images/17Sep_pic2.jpg) -->
+**Values of a single variable selected by authors**
+
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/aksabapathy/52719101065/in/datetaken-public/" title="lit_density"><img src="https://live.staticflickr.com/65535/52719101065_e6345ab5b9.jpg" width="215" height="500" alt="lit_density"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
 All of the more creative visualizations that I had done were for the literature review chapter. This one shows the values of density of a building insulation material (straw in this case) selected by various researchers over the years. I made the markers into big boxes, which are either shaded or transparent to show that the values are continuous or discrete, respectively, so that the plot is distinct and attracts the attention of the reader.
 
-###  Showcasing variation in multiple variables
-<!-- ![Image not found: https://raw.githubusercontent.com/aksaba/aksaba.github.io/master/images/17Sep_pic3.jpg] --><!-- (https://raw.githubusercontent.com/aksaba/aksaba.github.io/master/images/17Sep_pic3.jpg "Image not found: https://raw.githubusercontent.com/aksaba/aksaba.github.io/master/images/17Sep_pic3.jpg")
-![17Sep_pic4.jpg (1051×878) (raw.githubusercontent.com)](https://raw.githubusercontent.com/aksaba/aksaba.github.io/master/images/17Sep_pic4.jpg) -->
+**Showcasing variation in multiple variables**
+
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/aksabapathy/52718156327/in/datetaken-public/" title="multivar_scatter_gray"><img src="https://live.staticflickr.com/65535/52718156327_353178aa24.jpg" width="500" height="234" alt="multivar_scatter_gray"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/aksabapathy/52719166388/in/datetaken-public/" title="multivar_scatter_color"><img src="https://live.staticflickr.com/65535/52719166388_8a813e4b20.jpg" width="500" height="397" alt="multivar_scatter_color"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
 The visualization on which I put the most time and effort is this one. It is a diagrammatic summary of a major portion of the literature review covering the ranges or types of different characteristics of straw insulation that have been selected by authors over the years. The first one is a gray-scale version I made for the thesis, and the second one is the colorized version I made for my paper. The different ways you can differentiate the characteristics are by changing the shape of the marker, using different colors or a color gradient, changing the size of the marker, and using shaded or transparent markers. In this plot, I used a gray-scale gradient or rainbow color gradient to show the variation in density, different shapes of markers to indicate the orientation of straw arrangement, and discrete markers and bars to show individual and ranged values, respectively, all the while the timeline of the research in straw insulation is the subject of the primary X-Y plot.
 
-###  Scatter plot showing closely bunched values
-<!-- ![17Sep_pic5.jpg (840×581) (raw.githubusercontent.com)](https://raw.githubusercontent.com/aksaba/aksaba.github.io/master/images/17Sep_pic5.jpg) -->
+**Scatter plot showing closely bunched values**
+
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/aksabapathy/52719101000/in/datetaken-public/" title="singlevar_scatter"><img src="https://live.staticflickr.com/65535/52719101000_18933fd9f7.jpg" width="500" height="304" alt="singlevar_scatter"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
 This is a basic scatter plot, but the challenge was to make individual lines distinct since there were a number of similarly varying individual plots. I used different shapes and shadings to bring out the distinction. 
 
-###  Visualizing instrumentation 
-<!-- ![17Sep_pic6.jpg (855×900) (raw.githubusercontent.com)](https://raw.githubusercontent.com/aksaba/aksaba.github.io/master/images/17Sep_pic6.jpg) -->
+**Visualizing instrumentation**
+
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/aksabapathy/52718156387/in/datetaken-public/" title="instrumentation_scheme"><img src="https://live.staticflickr.com/65535/52718156387_f849ffb5b5.jpg" width="488" height="500" alt="instrumentation_scheme"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
 This one does not communicate numerical data but rather information about location and type of sensors installed in a experimental setup. This particular schematic shows the locations of thermocouples and relative humidity sensors installed in test room. Different colors are used to differentiate the four walls and the roof of the room. 
+
+[back](./)
