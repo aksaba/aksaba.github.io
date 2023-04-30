@@ -4,6 +4,52 @@ layout: default
 
 ## General Writings
 
+### My old article submissions to _The Hindu_
+
+Back in 2011, when I was had just started my bachelor's, I was eager to get my writings published. I dreamed of seeing my article in a newspaper, and since we had then subscribed to _The Hindu_, I decided to send some of my articles to the "Open Page" section of that newspaper. Although I was confident in my writing ability, _The Hindu_ is known to have high standards when it comes to language. Unsurprisingly, none of my articles were published. The other day, I was going through my old emails to delete the unwanted ones (my Gmail storage was nearing full capacity). It was then I came across these articles. I'm posting them here as they were originally written.
+
+#### Title: Boulevard of Tragedies  
+  
+We all read newspapers in our own way. Some of us glance at the headlines from the first page and later go for some in-depth reading while others leave it at the headlines itself. Some of us would read the business news first while sports enthusiasts would go straight for the last couple of pages. There is, however, one section, which is least recognized for its depth nor does it attract the reader to a major extent- the local news section- typically occupying the third or fourth page.
+
+This section invariably contains reports of an accident at least thrice a week. The accidents are those not major enough to make it to the first page but the existence of a fatality makes it worthy for a third-page report. Once, such a report caught my eye ( 'The Hindu' dated September 4, 2011; page 3) . It had five paragraphs aligned in two columns .  A woman riding on the pillion of a motorcycle driven by a man had died in a road mishap. A dispassionate description of the circumstances of the incident was presented in the first two paragraphs. The motorcycle was hit by a private bus. The impact made the woman to fall on the right side and happened to come under the wheels of another bus while the man had fallen on the other side and survived.
+
+The next two paragraphs dealt with police investigations. They were more like an anti-climax of a gripping drama but were scripted with a predilection of the commonplace. The man and woman were engaged to marry. It was indeed commonplace until those moments of chaos. The police had apprehended the driver of the private bus-he was from a certain district from Tamil Nadu, it added, almost like an afterthought. He should be having a home. He should be having a family. He may even be having parents, wife and kids, brothers and sisters whose lives depended on the money he sent home.
+
+Several lakhs of people read the newspaper. Many throwing a cursory glance at the headline-“Pillion rider dies in accident” and turning the page. Some make an impromptu remark on ‘drivers being drunk at work’ or ‘reckless young motorcyclists’ depending upon their perception or popular belief. Yet, in a matter of mere seconds, three families are realizing a nightmare, they would have never imagined; three families on the verge of collapse. The rest of the world is too busy to take note of the tragedy. Events such as this expose the inherent paradox of all life- precious yet atrophied; strong yet so brittle; sympathized by all but few empathetic.   
+
+There was still the last paragraph. The location was an accident prone zone, it concluded. In other words, it was a stage where tragedies were enacted with unfailing regularity but with different characters on every act- the spectators, impervious.
+
+#### Title: LEAKING DEMOCRACY  
+  
+I should have done this three years ago but then again, better late than never. I walked towards the wide open gates of the withered building negotiating the muddy puddles of water, formed because of the rains overnight. Thankfully, it wasn't raining that morning.  
+  
+I inquired for the place I was looking for and was directed towards the stairs. Walking up the stairs , the impact of the rains was visible there too : damp and untidy. As I reached the first floor, I found about a dozen people already waiting in a queue.  
+  
+After I joined the queue, a fellow citizen behind me wanted to know if this was the place where the voter registration forms were being collected and several responded in the affirmative. As I got to move upfront, I could see that things were not moving smooth- a single official was constantly instructing the required testimonials to those applicants crowding around her and many of them came out irritably as they were not aware of the requisites. why didn't they inform us before?- was the question that everyone had in their minds.  
+  
+But I came prepared for such a situation -couple of extra passport size photographs and additional photocopies of testimonials. I was determined not to return to this place for the same reason.  
+  
+As I entered the room allocated, I came face to face with a bizarre arrangement. Rain water was leaking from the centre of the roof and on to a chair placed on a table. A pool had already formed on the chair and was threatening to develop into a cataract. Realizing this threat, an assistant took the chair and carefully maneuvering through the queue of people, went outside. The chair was apparently placed to prevent the water from dripping on the table ! ( Why didn't they just use a cup or bucket?!!). 'This was rain water harvesting with a twist !', I thought to myself.  
+  
+One of the applicants before me was asked to stick an additional photograph on his form. Since the search for the gum bottle turned futile, he went out to buy one. When , the gum was finally found, I wondered if it contained gum or rain water !  
+  
+As my turn came, things went about smoother than I expected. I was armed with everything they asked for. I signed my name, turned back, fought the ever-growing queue of people, on my way back and out of the room. I descended the stairs triumphantly and came out of the corporation office. But then, something struck me as odd in all this experience.. Why was the ceiling at the office leaking when it is not raining outside ? May be it wasn't water.. may be it was our democracy that was leaking !
+
+#### Title: The Not So 'Striking' State of Education 
+  
+One must have come across quite a few news articles regarding college students going on strike and after going through them, it is natural inclination for the public to conclude that the students are the ones who are acting irresponsibly. What prompted me to write this article is the occurrence of one such strike last week, at one of the reputed colleges in Chennai, where I'm doing my engineering. Although, I did not involve myself in the strike,as a fellow student, I felt that their ire was justified.  
+  
+To understand the situation, one must first get to know of the position that a student finds himself/herself in, at the time of college admissions in Tamil Nadu. Every year, there arises an issue concerning the entrance examination and/or the counseling conducted by the Anna University, which is ultimately resolved by the Madras high court, at the eleventh hour. By this time, parents and students are utterly confused. They are left with no other choice but to opt out of the counseling and secure a seat, through management quota, in the name of which, private institutions rake in lakhs and lakhs of money.This is evident even in the ongoing counseling, for which many students have not turned up.  
+  
+The ones who get a seat through counseling cannot be considered lucky either. They are asked to pay more than the stipulated amount as fees, in the name of special fees, development fees, X fees, Y fees, etc. Although, the government is urging parents to come forward and complain against such colleges, parents are unwilling because their child's future is uppermost in their minds and money is only secondary to them. It is only on rare occasions, such as the one a few days ago, when the Income Tax department raided a few colleges, they get caught.  
+  
+Getting into a college is only the beginning of the problems that a student has to face. Once inside the campus, he/she is subjected to pointless rules,regulations and restrictions, flouting of which invites a fine, ranging from twenty five Rupees to a few hundreds. In some cases, the student is made to suffer public humiliation or corporal punishment, which  leads the student to believe that all the talk about college days being the best part of one's life as nothing more than a myth ! Under these circumstances, the student's revolting behavior is not surprising at all, isn't  it?  
+  
+This is only one side of the story. Many colleges also suffer from several shortcomings- inadequacy of capable staff and lack of infrastructure being the two most significant among them. There is also undue importance given to theoretical exams (in order to maintain a good pass percentage), over practicals. The lack of hands-on experience, which is what engineering is all about, severely undermines the student's understanding of concepts and their applications. In such a scenario, the news about AICTE giving approval to 12 new colleges adding to the already existing 400-odd colleges in the state, is all the more bewildering.   
+  
+Many, with an eye on making money, are running colleges, thinking of it not as a way of rendering education to thousands, which is probably the highest form of service but as a lucrative business option. If this situation persists, there is no doubt in my mind that engineering degree will completely lose its value in the coming years.
+
 ### Philosophical Defense Mechanisms
 
 I remember reading how the unconscious part of our brain has the power to trigger certain actions in times of danger to save our lives. For example, let's say I've met with an accident, and I've hurt my leg. I'm losing blood fast through a wound in my leg. In this situation, my unconscious mind recognizes the imminent danger to my life and immediately springs into action. In the very next instant, I lose my consciousness, and I lie fainted at the accident site. This loss in consciousness was triggered by my unconscious mind as a means of saving blood.
