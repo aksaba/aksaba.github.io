@@ -6,6 +6,150 @@ layout: default
 
 ## Codes
 
+### **Enhancing English Writing Using a Local Language Model: A Step-by-Step Guide**
+
+Writing fluently in English can be challenging for non-native speakers. Even with a solid grasp of vocabulary and grammar, nuances in tone, style, and sentence structure can be difficult to capture. For those who work regularly in English but want to enhance fluency and clarity in their writing, language models (LMs) can provide valuable assistance.
+
+However, many of the most powerful LMs require a subscription or have strict data-sharing limitations, which may not be suitable for everyone. This is where open-source, locally run models can be a fantastic alternative.
+
+### **Why Choose a Local Language Model?**
+
+Using a local LM over a commercial, cloud-based model has several advantages:
+
+* **Cost-Effective**: Local models are often open-source and free to use, bypassing subscription fees.
+* **Privacy and Security**: Running an LM locally keeps data off third-party servers, ideal for sensitive or confidential work.
+* **Customization**: Local models can often be fine-tuned for specific tasks, tailoring them to your unique needs.
+
+One promising option in this space is Microsoft’s Phi family of LMs, which are designed to support a range of tasks, including text editing and enhancement. In this guide, we’ll walk you through the steps for setting up and using a Phi LM locally to edit and improve sentences.
+
+---
+
+### **Step 1: Setting Up the Prerequisites**
+
+To begin, ensure you have the following prerequisites:
+
+* **Python**: Make sure Python (version 3.7 or newer) is installed on your machine. You can download it from [Python’s official site](https://www.python.org/downloads/).
+    
+* **Python Libraries**: Some libraries are required to interact with and run the LM. Run the following command in your terminal or command prompt to install the necessary packages:
+    
+    bash
+    
+    Copy code
+    
+    `pip install transformers torch sentencepiece` 
+    
+* **Download the Language Model**: You’ll need to download the Phi LM  from a repository that supports its use, such as the [Hugging Face model hub](https://huggingface.co/microsoft/Phi-3-mini-4k-instruct-gguf). This can be done programmatically within the code itself.
+    
+
+---
+
+### **Step 2: Loading and Initializing the Phi Language Model**
+
+With the prerequisites in place, we can load and initialize the language model. Here’s a simplified breakdown of the process using the code provided:
+
+1.  **Import the Required Libraries**:
+    
+    * The `transformers` library is essential for loading and interacting with LMs like Phi.
+    
+    python
+    
+    Copy code
+    
+    `from transformers import AutoModelForCausalLM, AutoTokenizer` 
+    
+2.  **Load the Model and Tokenizer**:
+    
+    * The `AutoModelForCausalLM` and `AutoTokenizer` classes load the model and tokenizer, respectively, which work together to process and interpret the input text.
+    * Specify the model checkpoint path as shown below:
+    
+    python
+    
+    Copy code
+    
+    `model_name = "microsoft/phi"
+    model = AutoModelForCausalLM.from_pretrained(model_name)
+    tokenizer = AutoTokenizer.from_pretrained(model_name)` 
+    
+3.  **Move Model to GPU (Optional)**:
+    
+    * If you have a GPU available, moving the model to it can greatly speed up processing. The following line achieves this:
+    
+    python
+    
+    Copy code
+    
+    `model.to("cuda")  # Use "cpu" if GPU is not available` 
+    
+
+---
+
+### **Step 3: Defining the Editing Function**
+
+The core of this code involves an editing function that takes in text, processes it using the model, and outputs a more fluent version. This function typically follows these steps:
+
+1.  **Tokenize the Input Text**:
+    
+    * Convert the input text into a format the model can process. Tokenization is necessary to break down the text into smaller pieces.
+    
+    python
+    
+    Copy code
+    
+    `inputs = tokenizer(input_text, return_tensors="pt").to("cuda")` 
+    
+2.  **Generate Output**:
+    
+    * Use the model to generate a response based on the input. Adjust parameters like `max_length` and `temperature` to control the response length and creativity, respectively.
+    
+    python
+    
+    Copy code
+    
+    `output = model.generate(
+        **inputs,
+        max_length=100,
+        num_return_sequences=1,
+        temperature=0.8
+    )` 
+    
+3.  **Decode the Output**:
+    
+    * Convert the generated tokens back into readable text. This is done with the tokenizer’s decode function, ensuring the output text is clean.
+    
+    python
+    
+    Copy code
+    
+    `edited_text = tokenizer.decode(output[0], skip_special_tokens=True)` 
+    
+
+---
+
+### **Step 4: Running the Model to Edit Sentences**
+
+With everything set up, you can now use the model to edit sentences! Here’s how you can do it:
+
+1.  **Input Your Sentence**:
+    
+    * Call the editing function, passing in the text you’d like to improve.
+    
+    python
+    
+    Copy code
+    
+    `input_text = "This are example sentence needing improvement."
+    edited_text = edit_text(input_text)
+    print("Edited Text:", edited_text)` 
+    
+2.  **Review and Iterate**:
+    
+    * Since language models may produce varied results, it can be helpful to adjust parameters like temperature or max length based on the text type and desired tone.
+
+
+
+---
+
+Using a local LM like Microsoft’s Phi model allows you to edit sentences without relying on cloud-based services, maintaining control over your data and avoiding subscription costs. With a few lines of code, you can create a reliable tool to help your writing sound fluent and natural. Try it out to see the difference it can make in your work!
 ### Tracking the COVID19 Outbreak in Tamil Nadu
 
 Graphs updated: 2215 hours 03 June 2020 
