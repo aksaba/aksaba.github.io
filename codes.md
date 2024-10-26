@@ -31,11 +31,7 @@ To begin, ensure you have the following prerequisites:
 * **Python**: Make sure Python (version 3.7 or newer) is installed on your machine. You can download it from [Python’s official site](https://www.python.org/downloads/).
     
 * **Python Libraries**: Some libraries are required to interact with and run the LM. Run the following command in your terminal or command prompt to install the necessary packages:
-    
-    bash
-    
-    Copy code
-    
+       
     `pip install transformers torch sentencepiece` 
     
 * **Download the Language Model**: You’ll need to download the Phi LM  from a repository that supports its use, such as the [Hugging Face model hub](https://huggingface.co/microsoft/Phi-3-mini-4k-instruct-gguf). This can be done programmatically within the code itself.
@@ -50,21 +46,13 @@ With the prerequisites in place, we can load and initialize the language model. 
 1.  **Import the Required Libraries**:
     
     * The `transformers` library is essential for loading and interacting with LMs like Phi.
-    
-    python
-    
-    Copy code
-    
+        
     `from transformers import AutoModelForCausalLM, AutoTokenizer` 
     
 2.  **Load the Model and Tokenizer**:
     
     * The `AutoModelForCausalLM` and `AutoTokenizer` classes load the model and tokenizer, respectively, which work together to process and interpret the input text.
     * Specify the model checkpoint path as shown below:
-    
-    python
-    
-    Copy code
     
     `model_name = "microsoft/phi"
     model = AutoModelForCausalLM.from_pretrained(model_name)
@@ -74,10 +62,7 @@ With the prerequisites in place, we can load and initialize the language model. 
     
     * If you have a GPU available, moving the model to it can greatly speed up processing. The following line achieves this:
     
-    python
-    
-    Copy code
-    
+       
     `model.to("cuda")  # Use "cpu" if GPU is not available` 
     
 
@@ -91,19 +76,11 @@ The core of this code involves an editing function that takes in text, processes
     
     * Convert the input text into a format the model can process. Tokenization is necessary to break down the text into smaller pieces.
     
-    python
-    
-    Copy code
-    
     `inputs = tokenizer(input_text, return_tensors="pt").to("cuda")` 
     
 2.  **Generate Output**:
     
     * Use the model to generate a response based on the input. Adjust parameters like `max_length` and `temperature` to control the response length and creativity, respectively.
-    
-    python
-    
-    Copy code
     
     `output = model.generate(
         **inputs,
@@ -115,10 +92,6 @@ The core of this code involves an editing function that takes in text, processes
 3.  **Decode the Output**:
     
     * Convert the generated tokens back into readable text. This is done with the tokenizer’s decode function, ensuring the output text is clean.
-    
-    python
-    
-    Copy code
     
     `edited_text = tokenizer.decode(output[0], skip_special_tokens=True)` 
     
@@ -133,11 +106,7 @@ With everything set up, you can now use the model to edit sentences! Here’s ho
     
     * Call the editing function, passing in the text you’d like to improve.
     
-    python
-    
-    Copy code
-    
-    `input_text = "This are example sentence needing improvement."
+   `input_text = "This are example sentence needing improvement."
     edited_text = edit_text(input_text)
     print("Edited Text:", edited_text)` 
     
